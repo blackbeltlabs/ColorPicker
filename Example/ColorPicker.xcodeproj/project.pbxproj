@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		292A25B14D1E68D307FCA728 /* Pods_ColorPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87698B52DD021018CC18DC19 /* Pods_ColorPicker_Example.framework */; };
+		544BC2B322755FBA0011F917 /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544BC2AE22755FBA0011F917 /* ColorItem.swift */; };
+		544BC2B422755FBA0011F917 /* ColorItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544BC2AF22755FBA0011F917 /* ColorItem.xib */; };
+		544BC2B522755FBA0011F917 /* ColorPickerGridVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544BC2B022755FBA0011F917 /* ColorPickerGridVC.swift */; };
+		544BC2B622755FBA0011F917 /* ColorPickerGridVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 544BC2B122755FBA0011F917 /* ColorPickerGridVC.xib */; };
+		544BC2B722755FBA0011F917 /* ColorPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544BC2B222755FBA0011F917 /* ColorPickerManager.swift */; };
 		B2FE53F95F537DB2DE08CF2B /* Pods_ColorPicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C39CA1DACBBE805465048DD /* Pods_ColorPicker_Tests.framework */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
@@ -31,11 +36,16 @@
 		15AD36DA459DA89652D8441A /* Pods-ColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPicker_Tests/Pods-ColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C39CA1DACBBE805465048DD /* Pods_ColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B8B6E66F6FD3FC1A7050BD /* Pods-ColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPicker_Example/Pods-ColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		544BC2AE22755FBA0011F917 /* ColorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
+		544BC2AF22755FBA0011F917 /* ColorItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorItem.xib; sourceTree = "<group>"; };
+		544BC2B022755FBA0011F917 /* ColorPickerGridVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerGridVC.swift; sourceTree = "<group>"; };
+		544BC2B122755FBA0011F917 /* ColorPickerGridVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerGridVC.xib; sourceTree = "<group>"; };
+		544BC2B222755FBA0011F917 /* ColorPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerManager.swift; sourceTree = "<group>"; };
 		869838AE46556D644C1A27DB /* Pods-ColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorPicker_Tests/Pods-ColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		87698B52DD021018CC18DC19 /* Pods_ColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99374CB41A11A66287F12C41 /* ColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ColorPicker.podspec; path = ../ColorPicker.podspec; sourceTree = "<group>"; };
-		A00F25D47F1A3AB5109CAEC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AADE825A53AB49A4703BF9B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		99374CB41A11A66287F12C41 /* ColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColorPicker.podspec; path = ../ColorPicker.podspec; sourceTree = "<group>"; };
+		A00F25D47F1A3AB5109CAEC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AADE825A53AB49A4703BF9B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* ColorPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +78,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		544BC2AC22755FBA0011F917 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				544BC2AD22755FBA0011F917 /* ColorPicker */,
+			);
+			name = Lib;
+			path = ColorPicker/Lib;
+			sourceTree = "<group>";
+		};
+		544BC2AD22755FBA0011F917 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				544BC2AE22755FBA0011F917 /* ColorItem.swift */,
+				544BC2AF22755FBA0011F917 /* ColorItem.xib */,
+				544BC2B022755FBA0011F917 /* ColorPickerGridVC.swift */,
+				544BC2B122755FBA0011F917 /* ColorPickerGridVC.xib */,
+				544BC2B222755FBA0011F917 /* ColorPickerManager.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
 		B4E57A9AD9D23976ED70EC45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +122,7 @@
 		ED83F66F20348A760038D96B = {
 			isa = PBXGroup;
 			children = (
+				544BC2AC22755FBA0011F917 /* Lib */,
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
 				ED83F67A20348A760038D96B /* ColorPicker */,
 				ED83F68D20348A760038D96B /* Tests */,
@@ -152,7 +184,6 @@
 				ED83F67420348A760038D96B /* Sources */,
 				ED83F67520348A760038D96B /* Frameworks */,
 				ED83F67620348A760038D96B /* Resources */,
-				07FCDEECC9729B2A6B93871B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544BC2B422755FBA0011F917 /* ColorItem.xib in Resources */,
 				ED83F68020348A760038D96B /* Assets.xcassets in Resources */,
+				544BC2B622755FBA0011F917 /* ColorPickerGridVC.xib in Resources */,
 				ED83F68320348A760038D96B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,28 +275,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07FCDEECC9729B2A6B93871B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ColorPicker_Example/Pods-ColorPicker_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ColorPicker/ColorPicker.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorPicker.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorPicker_Example/Pods-ColorPicker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6BF76F89B3E6C163DC97875F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,8 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544BC2B322755FBA0011F917 /* ColorItem.swift in Sources */,
 				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
+				544BC2B522755FBA0011F917 /* ColorPickerGridVC.swift in Sources */,
 				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
+				544BC2B722755FBA0011F917 /* ColorPickerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

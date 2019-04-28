@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ColorPickerGridVC" customModule="ColorPicker_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="Ito-sR-UmC" id="5gF-Hz-Dms"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView wantsLayer="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9U-om-JrZ">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                    <clipView key="contentView" id="m9P-2U-t6p">
+                        <rect key="frame" x="1" y="1" width="478" height="270"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="Ito-sR-UmC">
+                                <rect key="frame" x="0.0" y="0.0" width="478" height="158"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="2" minimumLineSpacing="2" id="NwP-Tp-3Ae">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <edgeInsets key="sectionInset" left="2" right="2" top="2" bottom="2"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="yZv-V9-L3N"/>
+                                    <outlet property="delegate" destination="-2" id="GUC-L4-Mrn"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="GmA-X4-pd0">
+                        <rect key="frame" x="-100" y="-100" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="ZHw-iY-Gfm">
+                        <rect key="frame" x="-100" y="-100" width="15" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="R9U-om-JrZ" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="6BW-Ke-REe"/>
+                <constraint firstAttribute="trailing" secondItem="R9U-om-JrZ" secondAttribute="trailing" id="7uO-xT-gKv"/>
+                <constraint firstItem="R9U-om-JrZ" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="hwD-u3-ABz"/>
+                <constraint firstAttribute="bottom" secondItem="R9U-om-JrZ" secondAttribute="bottom" id="vH6-sq-GAu"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

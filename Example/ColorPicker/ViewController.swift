@@ -9,11 +9,12 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    
   override func viewDidLoad() {
     super.viewDidLoad()
 
     // Do any additional setup after loading the view.
+    self.view.wantsLayer = true
   }
 
   override var representedObject: Any? {
@@ -21,7 +22,12 @@ class ViewController: NSViewController {
     // Update the view, if already loaded.
     }
   }
-
-
+    
+    @IBAction func touchOnButton(_ sender: NSButton) {
+        debugPrint("Touch")
+        ColorPickerManager.shared.showColorPickerForView(view: sender) { [weak self] (color) in
+            self?.view.layer?.backgroundColor = color?.cgColor
+        }
+    }
 }
 

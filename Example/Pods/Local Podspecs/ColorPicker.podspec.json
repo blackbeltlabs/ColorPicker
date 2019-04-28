@@ -1,0 +1,22 @@
+{
+  "name": "ColorPicker",
+  "version": "0.1.0",
+  "summary": "A short description of ColorPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hung Nguyen/ColorPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hung Nguyen": "tanhung0107@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Hung Nguyen/ColorPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "ColorPicker/Classes/**/*"
+}
